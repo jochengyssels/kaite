@@ -1,0 +1,17 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15" />
+    </filter>
+  </defs>
+  
+  <!-- Clouds -->
+  <g filter="url(#blur)">
+    <ellipse cx="300" cy="200" rx="100" ry="60" fill="white" opacity="0.7" />
+    <ellipse cx="500" cy="250" rx="120" ry="70" fill="white" opacity="0.8" />
+    <ellipse cx="200" cy="300" rx="90" ry="50" fill="white" opacity="0.6" />
+    <ellipse cx="400" cy="350" rx="110" ry="60" fill="white" opacity="0.7" />
+    <ellipse cx="600" cy="300" rx="100" ry="55" fill="white" opacity="0.6" />
+  </g>
+</svg>
+

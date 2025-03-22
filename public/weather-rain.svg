@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+    </filter>
+  </defs>
+  
+  <!-- Rain drops -->
+  <g>
+    <g transform="translate(0,0)">
+      <line x1="100" y1="100" x2="80" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="200" y1="150" x2="180" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="300" y1="100" x2="280" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="400" y1="150" x2="380" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="500" y1="100" x2="480" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="600" y1="150" x2="580" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="700" y1="100" x2="680" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+    </g>
+    
+    <g transform="translate(50,100)">
+      <line x1="100" y1="100" x2="80" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="200" y1="150" x2="180" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="300" y1="100" x2="280" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="400" y1="150" x2="380" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="500" y1="100" x2="480" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="600" y1="150" x2="580" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+    </g>
+    
+    <g transform="translate(-50,200)">
+      <line x1="100" y1="100" x2="80" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="200" y1="150" x2="180" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="300" y1="100" x2="280" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="400" y1="150" x2="380" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="500" y1="100" x2="480" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="600" y1="150" x2="580" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="700" y1="100" x2="680" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+    </g>
+    
+    <g transform="translate(30,300)">
+      <line x1="100" y1="100" x2="80" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="200" y1="150" x2="180" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="300" y1="100" x2="280" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="400" y1="150" x2="380" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="500" y1="100" x2="480" y2="150" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+      <line x1="600" y1="150" x2="580" y2="200" stroke="#6495ED" stroke-width="2" filter="url(#blur)" />
+    </g>
+  </g>
+</svg>
+
